@@ -1,0 +1,23 @@
+# Twilight mining (devnet preview)
+
+> Twilight pays people for verified work their coding agents do. The chain registers Slots and pays each active Slot a share of every block's emission; a Slot's authorization server (MINIS) verifies participation from metadata only and pays participants on chain, per epoch. One Slot is open to participants today: Slot 3, the search router at https://router-api.nyks.dev, whose unit of work is a web search. The client is `dropin-miner`: no daemon, no proxy, no MCP server; a skill plus hooks for Claude Code, Codex, Cursor and opencode.
+
+Key facts:
+- Slots are registered by the network authority (`MsgRegisterCoreSlot`), not self-service; up to 100 active. Every block mints a subsidy (416,190 utwlt at genesis, halving on supply thresholds toward a 21M TWLT cap); each epoch (360 blocks, about 32 minutes) the pool splits among active Slots as entitlements that the Slot's authorization server releases to participants by settlement chunks. No claim transaction.
+- Distribution mode today is `TRUSTED_AS_DISTRIBUTION`: one verified observation per epoch makes a participant eligible; the Slot's share splits equally among the eligible. The on-chain selection draw exists in the genesis but is not applied.
+- For Slot 3 a verified observation is a search served by the router with an `sr-` key from the enrolled account, matched by the authorization server through the router's verification API. The trace (trajectory) a search carries is optional; `TOKENDROP_TRACE=off` earns the same.
+- Install: `curl -fsSL https://raw.githubusercontent.com/twilight-project/dropin-miner/main/scripts/install.sh | sh` (PowerShell: `irm …/install.ps1 | iex`; npm: `npx dropin-miner`). Source: https://github.com/twilight-project/dropin-miner.
+- Identity: an enrollment token from https://platform.nyks.dev (15 minutes, single use) binds an installation to an account; an `sr-` API key meters searches at the router; a wallet (made locally, 24 words) or a pasted `twilight1…` address receives payouts.
+- Devnet: chain `twilight-devnet-3`, Slot 3, AS https://minis.nyks.dev. Payout binding is declared, not proven. Not a mainnet promise.
+
+## Docs
+
+- [Twilight](https://docs.twilight.org/twilight.md): Slots, registration, the token supply, MINIS, the client; reference: CLI, config, protocol, chain parameters
+- [Search router](https://docs.twilight.org/search-router.md): Slot 3: searching, trajectories, how the Slot distributes tokens; reference: router API, trace envelope
+- [Agent skill](https://docs.twilight.org/skill.md): what the client installs into agents
+- [Manifest](https://docs.twilight.org/manifest.json): JSON index with sizes and checksums
+
+## Optional
+
+- [Twilight protocol docs](https://docs.twilight.org): the chain itself — pools, Boomerang, the validity gadget, validators
+- [twilight-project on GitHub](https://github.com/twilight-project)

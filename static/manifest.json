@@ -1,0 +1,51 @@
+{
+  "name": "twilight-mining-docs",
+  "generated_at": "2026-10-15T11:54:49Z",
+  "base": "https://docs.twilight.org",
+  "status": "devnet preview",
+  "chain": "twilight-devnet-3",
+  "slots": [
+    {
+      "id": 3,
+      "name": "search router",
+      "doc": "search-router",
+      "provider": "https://router-api.nyks.dev",
+      "platform": "https://platform.nyks.dev",
+      "authorization_server": "https://minis.nyks.dev"
+    }
+  ],
+  "client_version": "0.1.6",
+  "documents": [
+    {
+      "id": "twilight",
+      "title": "Twilight",
+      "path": "https://docs.twilight.org/twilight.md",
+      "format": "text/markdown",
+      "bytes": 41007,
+      "sha256": "2da887a367555c19e1d47e9ff11d3f4a0064a93de3d5fc39ac2a21bbb67cdf38",
+      "description": "The mechanism common to every Slot: how work becomes a reward, Slot registration, the token supply and halving, how a Slot's share is distributed, the authorization server (MINIS: enrollment, epochs, eligibility, settlement), the coding-agent client (install, agents, wallet, identity), then the reference: CLI, config, files, agent hosts, the mining protocol, chain parameters, hosts, versions."
+    },
+    {
+      "id": "search-router",
+      "title": "Search router (Slot 3)",
+      "path": "https://docs.twilight.org/search-router.md",
+      "format": "text/markdown",
+      "bytes": 27472,
+      "sha256": "fac2f9f307f807162ad6c8a0407ddb5f3fc00ef7a309615ba2f9819fb1dd8865",
+      "description": "The one Slot open today: how a search becomes a reward, searching and the fan-out, the API key, trajectories (what travels with a search and how to turn it off), how the Slot distributes tokens (what counts as a verified search, how the share is split, why trajectories), then the reference: router API, tiers and cost, status codes, traces, feedback and judge, the verification API, the trace envelope, hosts."
+    },
+    {
+      "id": "skill",
+      "title": "Agent skill: dropin-miner (template)",
+      "path": "https://docs.twilight.org/skill.md",
+      "format": "text/markdown",
+      "bytes": 1478,
+      "sha256": "71cab76aa2f8efe28a6ed251353b417119c0eb6c34231f2b64afef8086d2df9b",
+      "description": "The skill dropin-miner agents install renders for Claude Code, Codex and Cursor; {{SEARCH}} and {{PREFER}} are filled at install.",
+      "kind": "agent-skill",
+      "install": {
+        "how": "run `dropin-miner agents install`; do not hand-write this file, the binary renders it with your paths"
+      }
+    }
+  ]
+}
