@@ -7,7 +7,7 @@ description: The five parts of Twilight, what each one holds, what passes betwee
 
 # Architecture
 
-<p className="lede">Twilight is a small chain with most of the work kept off it. The chain registers Slots, mints coins, and moves money. Everything about who did what happens between three parts the Slot operator runs and one program on each participant's machine.</p>
+<p className="lede">The chain does three things: it registers Slots, mints coins, and moves money. Everything about who did what happens off the chain, between three parts the Slot operator runs and one program on each participant's machine.</p>
 
 <div className="figure">
 <svg viewBox="0 0 860 470" role="img" aria-label="Architecture: participant client, provider and authorization server, chain">
