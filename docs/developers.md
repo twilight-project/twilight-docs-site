@@ -19,12 +19,13 @@ description: The technical documents, the protocol, the chain parameters, what a
 
 ## Running a Slot
 
-A Slot operator provides three things: a provider that does the work and exposes a verification API the Slot's verifier can reconcile against; a verifier that enrolls participants, runs epochs, checks reports and submits settlement; and a validator. Registration is an authority action on the chain. The Twilight document above describes the chain side; the search Slot document is a complete worked example of the provider and verifier side.
+A Slot operator provides three things: a provider that does the work and exposes a verification API the Slot's verifier can reconcile against; a verifier that enrolls participants, runs epochs, checks reports and submits settlement; and a validator. Registration is an authority action on the chain; [Register a new Slot](/register-a-slot) walks through it, from the record the authority signs to the verifier that has to run before anyone is paid. The Twilight document above describes the chain side; the search Slot document is a complete worked example of the provider and verifier side.
 
 ## Source
 
-- [dropin-miner, the client](https://github.com/twilight-project/dropin-miner): one binary, no daemon, no proxy, no MCP server.
-- [twilight-core, the chain](https://github.com/usmanshahid86/twilight-core): the only chain library these documents cite.
+- [jevlin, the client](https://github.com/jevlinai/jevlin-go): one binary, no daemon, no proxy, no MCP server.
+- [twilight-core, the chain](https://github.com/twilight-project/twilight-core): the only chain library these documents cite.
+- [twilight-minis, the authorization server](https://github.com/twilight-project/twilight-minis): the reference verifier and paymaster, one per Slot.
 - [Jevlin](https://jevlin.ai): the operator of the search Slot.
 
 Give the Markdown to an agent and it can answer most questions about the protocol on its own:

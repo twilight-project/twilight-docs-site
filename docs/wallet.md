@@ -18,9 +18,9 @@ description: The keys are yours. What each one does, where it lives, and what to
 | **Use an address you already have** | Paste a `twilight1…` address, from Keplr say. Payments go there. Nothing on your machine can spend from it. |
 
 ```bash
-dropin-miner wallet address
-dropin-miner wallet balance
-dropin-miner wallet send <to> <amount>   # asks for your passphrase, then for a yes
+jevlin wallet address
+jevlin wallet balance
+jevlin wallet send <to> <amount>   # asks for your passphrase, then for a yes
 ```
 
 ## Changing the address
@@ -43,4 +43,4 @@ They are separate on purpose. Losing the provider key means registering again; l
 
 ## The folder on your machine
 
-Everything lives in a folder called `.tokendrop` in your home directory: the program, your settings, the keys above, your wallet if setup made one, and any reports not yet sent. It is readable only by your user. Back it up like anything you care about, and remember that the 24 words are the one thing that can rebuild the wallet without it.
+Everything lives in a folder called `.jevlin` in your home directory: the program, your settings, the keys above, your wallet if setup made one, and any reports not yet sent. It is readable only by your user. Back it up like anything you care about, and remember that the 24 words are the one thing that can rebuild the wallet without it.

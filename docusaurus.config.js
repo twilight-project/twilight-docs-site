@@ -29,7 +29,7 @@ const config = {
       items: [
         {href: 'https://twilight.org', label: 'twilight.org', position: 'right'},
         {href: 'https://jevlin.ai', label: 'Jevlin', position: 'right'},
-        {href: 'https://github.com/twilight-project/dropin-miner', label: 'GitHub', position: 'right'},
+        {href: 'https://github.com/jevlinai/jevlin-go', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {

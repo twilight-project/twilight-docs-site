@@ -60,3 +60,28 @@ pre{border:1px solid var(--line);border-radius:4px}
 .pagination-nav__sublabel{font-family:var(--ifm-font-family-monospace);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
 @media (max-width:996px){.steps li{grid-template-columns:44px 1fr}.steps__n{font-size:26px}}
 .menu__link,.navbar__link,.navbar__brand,.card,.pagination-nav__link,.table-of-contents__link{text-decoration:none!important}
+/* Sidebar category labels, in the eyebrow style */
+.menu__list-item-collapsible .menu__link{font-family:var(--ifm-font-family-monospace);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--eyebrow);padding:6px 12px 8px}
+.menu__list-item-collapsible .menu__link:hover{background:none;color:#111}
+.theme-doc-sidebar-item-category+.theme-doc-sidebar-item-category{margin-top:18px}
+.menu__caret:before,.menu__link--sublist-caret:after{opacity:.5}
+/* "What you can do" feature list */
+.features details{margin:0;border:1px solid var(--line);border-radius:0;border-bottom:0;background:none;box-shadow:none;padding:0}
+.features details:first-child{border-radius:6px 6px 0 0}
+.features details:last-child{border-bottom:1px solid var(--line);border-radius:0 0 6px 6px}
+.features details>summary{display:flex;align-items:center;gap:12px;padding:14px 16px 14px 40px;font-size:17px;cursor:pointer;list-style:none}
+.features details>summary::before{left:16px;top:50%;transform:translateY(-50%) rotate(0deg)}
+.features details[open]>summary::before{transform:translateY(-50%) rotate(90deg)}
+.features details>summary:hover{background:rgba(255,255,255,.45)}
+.features details>div{padding:4px 16px 14px 40px;border-top:1px solid var(--line)}
+.features details>div>p:last-child{margin-bottom:0}
+.features .fi{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;opacity:.85}
+.theme-doc-markdown .features details>summary{padding-left:40px}
+.features details{--docusaurus-details-decoration-color:var(--ifm-font-color-base)}
+/* Architecture diagram */
+.figure{margin:8px 0 28px;padding:14px 10px;border:1px solid var(--line);border-radius:6px;background:rgba(255,255,255,.35)}
+.figure svg{display:block;width:100%;height:auto;color:var(--ifm-font-color-base)}
+.figure svg text{font-family:var(--ifm-font-family-base);font-size:13px}
+.figure svg .fig-title text{font-family:var(--ifm-heading-font-family);font-size:18px;font-weight:300}
+.figure svg .fig-sub text{font-size:12px}
+.figure svg .fig-eyebrow text,.figure svg .fig-label text{font-family:var(--ifm-font-family-monospace);font-size:10.5px;text-transform:uppercase;letter-spacing:.06em}

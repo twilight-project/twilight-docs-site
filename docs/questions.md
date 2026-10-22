@@ -18,7 +18,7 @@ No. Twilight is the chain and the rules. Search is the first Slot, run by Jevlin
 
 ## Who can run a Slot?
 
-Anyone who can provide a kind of work, verify who did it, and run a node, once the network authority registers them. The chain caps active Slots at a hundred. There is no self-service registration today; [For developers](/developers) points to what a Slot has to implement.
+Anyone who can define a kind of work, verify who did it, and run a node, once the network authority registers them. The chain caps active Slots at a hundred. There is no self-service registration today; [For developers](/developers) points to what a Slot has to implement.
 
 ## Will it slow my agent down?
 
@@ -46,8 +46,8 @@ Yes. Each computer enrolls on its own and reports its own work, and payments go 
 
 ## How do I stop?
 
-Tell your agent `/dropin-miner off` and it goes back to its own tools. To remove the program, [see Get started](/get-started#removing-it). Your wallet stays yours either way.
+Tell your agent `/jevlin off` and it goes back to its own tools. To remove the program, [see Get started](/get-started#removing-it). Your wallet stays yours either way.
 
 ## Something is not working
 
-Run `dropin-miner doctor`. It names the one thing to fix. The most common cause of not earning is a provider key from a different account than the one you enrolled with; doctor catches that too. For anything else, the [issue tracker](https://github.com/twilight-project/dropin-miner/issues) is the place.
+Run `jevlin doctor`. It names the one thing to fix. The most common cause of not earning is a provider key from a different account than the one you enrolled with; doctor catches that too. For anything else, the [issue tracker](https://github.com/jevlinai/jevlin-go/issues) is the place.
