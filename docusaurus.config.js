@@ -22,6 +22,7 @@ const config = {
   ],
   themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ ({
     colorMode: {defaultMode: 'light', disableSwitch: true, respectPrefersColorScheme: false},
+    image: 'img/social-card.png',
     metadata: [{name: 'description', content: 'How Twilight mining works, in plain language.'}],
     navbar: {
       title: 'Twilight docs',
