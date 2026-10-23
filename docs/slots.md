@@ -9,13 +9,13 @@ description: A Slot is an independent verifier with work it defines itself, run 
 
 <p className="lede">A Slot is Twilight's unit of proof of work. The chain registers a bounded set of them, pays each active Slot a share of every block's new coins, and leaves the rest to the Slot: what the work is, how it is verified, and who gets paid.</p>
 
-## What a Slot is
+## A Slot, defined
 
 A Slot is an independent verifier. It defines its own work, and the network pays it a share of every block for verifying who did that work. Someone operates it. The operator provides the work, keeps a record of who did it, runs a verifier that checks those records, and pays the people who did verified work out of the Slot's share. The chain sees only three things: that the Slot exists, how much it is owed for each half-hour period, and the payments it makes.
 
 Because the chain stays out of the work itself, a Slot can be almost anything, as long as the operator can verify that a unit of it really happened. The first Slot open to the public is web search: a search by a coding agent is a unit of work, and the router that served it can confirm it. Other Slots will define other units.
 
-## What a Slot has to run
+## The parts of a Slot
 
 | Part | What it does | For the search Slot |
 |---|---|---|

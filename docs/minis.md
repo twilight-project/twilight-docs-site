@@ -48,7 +48,7 @@ If the Slot also runs the draw, a fifth account is needed: an **anchor** account
 
 Changing the settlement address later is an operator transaction and takes effect in the block that includes it. The server has to be moved to the new key at the same time, because a chunk signed by the old address is rejected from then on.
 
-## What it runs on
+## Requirements
 
 | Requirement | Why |
 |---|---|

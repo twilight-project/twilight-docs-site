@@ -54,7 +54,7 @@ How much the operator keeps in an ordinary period is therefore a matter of the S
 
 Beyond the Slot's share, there is nothing else to earn from running one. The chain charges no fees, there is no stake to earn on, and validators are not paid for blocks as such: a Slot is paid for being active, by the block, whether it proposed or not.
 
-## Where the coins come from
+## The supply
 
 Twilight follows Bitcoin's shape. There will only ever be 21 million TWLT. Every block creates a fixed number of new coins, and that number halves at fixed points as the supply fills up, so the first half of all coins is produced in roughly the first four years, the next quarter in the four after that, and so on.
 
