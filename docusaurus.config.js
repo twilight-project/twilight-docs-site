@@ -5,7 +5,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Twilight docs',
   tagline: 'Proof of work, for machines that already work',
-  favicon: 'favicon.svg',
+  favicon: 'favicon.ico',
+  headTags: [
+    {tagName: 'link', attributes: {rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml'}},
+    {tagName: 'link', attributes: {rel: 'apple-touch-icon', href: '/apple-touch-icon.png'}},
+  ],
   url: 'https://docs.twilight.org',
   baseUrl: '/',
   trailingSlash: false,
