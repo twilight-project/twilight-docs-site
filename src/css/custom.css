@@ -19,7 +19,8 @@
 }
 html{background:#E7EAF3}
 .navbar{border-bottom:1px solid var(--line)}
-.navbar__title{font-family:var(--ifm-font-family-monospace);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+.navbar__logo{height:20px;margin-right:12px}.navbar__logo img{height:20px;width:auto}
+.navbar__title{font-family:var(--ifm-font-family-monospace);font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding-left:12px;border-left:1px solid var(--line);line-height:20px}
 .navbar__link{font-family:var(--ifm-font-family-monospace);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#5a5d66}
 .navbar__link:hover{color:#111}
 .menu__link{font-size:15px;border-radius:6px}

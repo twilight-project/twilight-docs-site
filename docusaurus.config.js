@@ -29,8 +29,8 @@ const config = {
     image: 'img/social-card.png',
     metadata: [{name: 'description', content: 'How Twilight mining works, in plain language.'}],
     navbar: {
-      title: 'Twilight docs',
-      logo: {alt: 'Twilight', src: 'img/mark.svg', width: 16, height: 17},
+      title: 'Docs',
+      logo: {alt: 'Twilight', src: 'img/twilight-logo.svg', width: 92, height: 20},
       items: [
         {href: 'https://twilight.org', label: 'twilight.org', position: 'right'},
         {href: 'https://jevlin.ai', label: 'Jevlin', position: 'right'},
