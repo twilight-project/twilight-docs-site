@@ -24,7 +24,7 @@ A made-up report fails the match, because there is no provider record for it. Re
 
 ## What it earns, and the devnet caveat
 
-Every period of about thirty minutes, the chain mints that period's coins and gives each active Slot its share. The Slot then splits its share equally among everyone who had at least one verified unit in the period. A thousand searches earn the same as one. Payment goes to the address you chose, within two periods, with no claiming step. [Rewards](/rewards) has the numbers and the rules.
+Every period of about thirty minutes, the chain mints that period's coins and gives each active Slot its share. The Slot then splits its share equally among everyone who had at least one verified unit in the period. A thousand searches earn the same as one. Payment goes to the address you chose, within two periods, with no claiming step. Two limits apply on the preview: a share under 0.01 TWLT is not sent, and a Slot can pay at most 128 participants in a period, so in a crowded period not everyone counted in is paid. [Rewards](/rewards) has the numbers and the rules.
 
 Twilight is a public preview on a test network. The coins it pays are devnet TWLT, which cannot be bought, sold or exchanged. The preview exists to show that the mechanism works with real agents doing real work, not to pay anyone yet.
 
