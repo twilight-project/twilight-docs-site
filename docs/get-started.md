@@ -9,6 +9,8 @@ description: Install the client, choose where to be paid, and let your coding ag
 
 <p className="lede">Ten minutes, one terminal. You need a computer that runs at least one supported coding agent. The client ships ready for the <a href="https://jevlin.ai">search Slot</a>, the one open today.</p>
 
+If you want to know what the agent will be doing before you install anything, read [Mining with a coding agent](/mining-with-a-coding-agent) first.
+
 ## 1. Install the Slot's client
 
 Each Slot's operator ships the client for it. For the search Slot that is Jevlin's, and [its docs](https://docs.jevlin.ai/quickstart) cover installing it on your machine. Install it, run its setup, and come back here. Setup asks its questions one at a time and shows you what it is about to write before it writes anything.

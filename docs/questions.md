@@ -22,7 +22,7 @@ Anyone who can define a kind of work, verify who did it, and run a node, once th
 
 ## Will it slow my agent down?
 
-The work goes through the Slot's provider instead of your agent's built-in tool, so you get the provider's speed, which for search is comparable. The report to the verifier is sent after the result has already come back to your agent, so your agent never waits for it.
+The work goes through the Slot's provider instead of your agent's built-in tool, so you get the provider's speed, which for search is comparable. The report to the verifier is sent after the result has already come back to your agent, so your agent never waits for it. [Mining with a coding agent](/mining-with-a-coding-agent) describes the whole exchange.
 
 ## Does Twilight read my code or my work?
 

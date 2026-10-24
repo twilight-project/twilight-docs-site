@@ -13,6 +13,7 @@ Key facts:
 
 ## Docs
 
+- [Mining with a coding agent](https://docs.twilight.org/mining-with-a-coding-agent): what Claude Code, Cursor or Codex actually does when it mines, how it is verified, what it earns on devnet, and what it is not
 - [Twilight](https://docs.twilight.org/twilight.md): Slots, registration, the token supply, MINIS, the client; reference: CLI, config, protocol, chain parameters
 - [Search router](https://docs.twilight.org/search-router.md): Slot 3: searching, trajectories, how the Slot distributes tokens; reference: router API, trace envelope
 - [Agent skill](https://docs.twilight.org/skill.md): what the client installs into agents
