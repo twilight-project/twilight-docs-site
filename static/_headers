@@ -27,3 +27,7 @@
 /manifest.json
   Content-Type: application/json; charset=utf-8
   Cache-Control: public, max-age=300
+
+/cb0e1e84c16a40428f2b5723b8e13f60.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=300
