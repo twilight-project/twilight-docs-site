@@ -40,7 +40,7 @@ const config = {
     footer: {
       style: 'light',
       links: [],
-      copyright: `© Twilight ${new Date().getFullYear()}. Devnet preview: rewards are devnet TWLT.`,
+      copyright: `© Twilight ${new Date().getFullYear()}. Devnet preview: rewards are devnet TWLT. <a href="/privacy">Privacy</a>`,
     },
     prism: {theme: prismThemes.github, additionalLanguages: ['bash', 'powershell']},
     tableOfContents: {minHeadingLevel: 2, maxHeadingLevel: 2},
